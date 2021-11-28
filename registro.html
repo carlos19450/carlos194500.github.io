@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Registrate ya</title>
+</head>
+
+<body
+    style="background-image: url(Portada.jpg);font-size: 17px;;text-align: center;color: rgb(255, 255, 255);font-family: monospace;font-weight: bold;">
+
+    <header>
+        <h1>¡Registrarse!</h1>
+    </header>
+    <main>
+        <form action="indice1.html" method="post" target="_blank" name="formularioWeb">
+
+            <label for="name">Escribe el nombre del personaje:<br></label>
+            <input type="text" placeholder="WolfSoul" name="name" id="name" maxlength="100" size="40"
+                required="required" />
+
+            <br><br>
+
+            <label for="contraseña">Escribe una contraseña<br></label>
+            <input type="password" placeholder="QWERTY" name="contraseña" id="contraseña" required="required" />
+
+            <br><br>
+
+            <label for="date">¿Eres mayor de edad?<br></label>
+            <input type="date" name="date" id="date" size="40" required="required" />
+
+            <br><br>
+
+            <label for="mail">¡Escribe tu correo para enterarte más sobre las actualizaciones!<br></label>
+            <input type="text" placeholder="alberto@gmail.com" name="mail" id="mail" maxlength="50" size="40"
+                required="required" />
+
+            <br><br>
+
+            <h4>¿Acepta recibir información comercial mediante correo?</h4>
+
+            <input type="radio" id="Acepto1" name="Acepto2" value="Aceptov">
+            <label for="Acepto1">Acepto</label>
+            <input type="radio" id="Rechazo1" name="Rechazo2" value="Rechazov">
+            <label for="Rechazo1">Rechazo</label>
+
+            <br><br>
+
+            <h4>¿Acepta las condiciones de la web?</h4>
+
+            <input type="radio" id="Acepto3" name="Acepto4" value="Aceptov1">
+            <label for="Acepto3">Acepto</label>
+            <input type="radio" id="Rechazo3" name="Rechazo4" value="Rechazov1">
+            <label for="Rechazo3">Rechazo</label>
+
+            <br><br>
+
+            <input type="submit" name="enviar" value="Enviar" />
+
+        </form>
+    </main>
+</body>
+
+</html>
